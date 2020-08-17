@@ -1,0 +1,65 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+  
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- query_entity
+
+entities:
+- object_type
+- mention
+- attribute
+- name
+- month
+- day
+- IS
+- holidays
+- training
+- RMG
+
+
+slots:
+  attribute:
+    type: unfeaturized
+  day:
+    type: unfeaturized
+  mention:
+    type: unfeaturized
+  month:
+    type: unfeaturized
+  name:
+    type: unfeaturized
+  object_type:
+    type: unfeaturized
+  IS:
+    type: unfeaturized
+  holidays:
+    type: unfeaturized
+  training:
+    type: unfeaturized
+  RMG:
+    type: unfeaturized
+
+    
+responses:
+  utter_ask:
+  - text: Hey! How can I help you?
+  utter_ask_again:
+  - text: Let me know if I can assist you with anything else
+  utter_goodbye:
+  - text: Hope I was able to help. Bye
+  utter_ask_rephrase:
+  - text: Sorry, I'm not sure I understand. Could you rephrase it?
+  - text: Could you please rephrase your message? I didn't quite get that.
+  
+  
+actions:
+- utter_ask
+- utter_goodbye
+- utter_ask_rephrase
+- utter_ask_again
+- action_query_knowledge_base

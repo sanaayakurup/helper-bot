@@ -1,0 +1,103 @@
+{
+    "IS": [
+        {
+            "id": 50,
+            "name": "IS helpdesk: 6087"
+        }
+		
+    ],
+	
+	
+    "RMG": [
+        {
+            "id": 51,
+            "name": "Arti Sonawane: 7318"
+        } ,
+        {
+            "id": 52,
+            "name": "Neha Sonkule: 7202"
+        } ,
+        {
+            "id": 53,
+            "name": "Veenita Samal: 7380"
+        } ,
+        {
+            "id": 54,
+            "name": "Vikram Chopra: 7277"
+        }
+		
+		
+    ],
+	
+    "training": [
+        {
+            "id": 51,
+            "name": "Aishwarya Suryawanshi: 6917"
+        } ,
+        {
+            "id": 52,
+            "name": "Neha Raka: 7306"
+        } ,
+        {
+            "id": 53,
+            "name": "Rakshika Rembersu: 7221"
+        } ,
+        {
+            "id": 54,
+            "name": "Tarandeep Kaur: 7212"
+        } ,
+        {
+            "id": 55,
+            "name": "Manjiri Sonar: 7211"
+        } ,
+        {
+            "id": 56,
+            "name": "Sonyah Sharma: 7322"
+        } ,
+        {
+            "id": 57,
+            "name": "Vaishali Saxena: 7341"
+        }
+		
+		
+		
+    ],
+	
+    "holidays": [
+        {
+            "id": 0,
+            "name": "Anant Chaturdashi",
+            "date": "1-Sep-20",
+            "day": "tuesday",
+            "is-long-weekend": false,
+			"month": "Sep"
+        },
+        {
+            "id": 1,
+            "name": "Gandhi jayanti",
+            "date": "2-Oct-20",
+            "day": "friday",
+            "is-long-weekend": true,
+			"month": "Oct"
+        },
+        {
+            "id": 2,
+            "name": "Dhanteras",
+            "date": "13-Nov-20",
+            "day": "friday",
+            "is-long-weekend": true,
+			"month": "Nov"
+
+        },
+        {
+            "id": 3,
+            "name": "Bhai Dooj",
+            "date": "16-Nov-20",
+            "day": "monday",
+            "is-long-weekend": true,
+			"month": "Nov"
+        }
+    ]	
+	
+	
+}
