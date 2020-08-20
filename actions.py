@@ -1,6 +1,5 @@
 from rasa_sdk.knowledge_base.storage import InMemoryKnowledgeBase
 from rasa_sdk.knowledge_base.actions import ActionQueryKnowledgeBase
-from rasa_sdk import Action
 
 
 class MyKnowledgeBaseAction(ActionQueryKnowledgeBase):
